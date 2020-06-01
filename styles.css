@@ -1,0 +1,194 @@
+/* font-family: 'Lexend Peta', sans-serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Lacquer', sans-serif; */
+@media screen and (max-width: 100%) {
+  div {
+    width: 80%
+  }
+}
+
+@media screen and (max-width: 70%) {
+  div {
+    width: auto;
+  }
+}
+
+body{
+
+  background-color: black;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+a{
+  color: #C1B493;
+  text-align: justify;
+  animation: wiredB 9s ease-in-out infinite;
+  transition: .9s;
+  transition-timing-function: ease-out;
+}
+
+a:hover{
+  animation: blink .2s infinite;
+  font-size: 5vw;
+}
+
+p{
+
+}
+
+h1{
+  padding: 0px;
+  margin: 0px;
+  font-size:5vw;
+}
+
+ul {
+  background-color: : black;
+  margin: 9% 25%;
+  padding: 0px;
+  width:70%
+  box-shadow: 0px 5px 10px #000000;
+  list-style-type: none;
+}
+
+ul:hover{
+
+}
+
+li {
+  background-color: black;
+  border: solid 2px #C1B493;
+  /* margin: 0px 0px 2px 0px; */
+  margin: 0px 10px 0px 10px;
+  padding: 20px;
+  list-style: none;
+}
+
+li:hover{
+  opacity: 1;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+h3{
+  color: #C1B493;
+  display: inline;
+  font-size:1.8vw;
+}
+
+h3:hover{
+  animation: wiredB 4s ease-in-out infinite;
+}
+
+.fontlaquer{
+  font-family: 'Lacquer', sans-serif;
+}
+.title{
+  color: black;
+}
+
+.nav{
+  justify-content: center;
+  opacity: 1;
+}
+
+.main{
+  padding: 0vw;
+}
+
+.img_blog{
+  width: 300px;
+}
+
+.logo{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  opacity: 0%;
+  animation: logoanim 10s ease-in-out infinite;
+	animation-delay: 10s;
+
+}
+
+.blink {
+  animation: blink 2s linear infinite;
+}
+
+.Bfast {
+	 animation: blink 2s ease-out infinite;
+	}
+
+.wiredAnim {
+	animation: wiredB 2s ease-in-out infinite;
+	}
+
+.wdel1s {
+	animation: wiredB 2s ease-in-out infinite;
+	animation-delay: 0.4s;
+	}
+
+.wdel2s {
+	animation: wiredB 2s ease-in-out infinite;
+	animation-delay: 0.8s;
+	}
+
+.wdel3s {
+	animation: wiredB2 2s ease-in-out infinite;
+	animation-delay: 1.2s;
+	}
+
+.wtit {
+  animation: wiredTitle 4s ease-in-out infinite;
+	animation-delay: 1.2s;
+}
+
+.wbox{
+  animation: wiredBoxes 3s ease-in-out infinite;
+  animation-delay: 1s;
+}
+
+@keyframes blink {
+  50% {
+	  color: #C1B493;
+  }
+ }
+
+
+ @keyframes wiredB {
+  50% {
+	  color:#d2738a;
+	  text-shadow:#d2738a 1px 4px 5px;
+	  }
+ }
+
+ @keyframes wiredB2 {
+  50% {
+	  color:#c1b492;
+	  text-shadow:#c1b492 1px 1px 6px;
+	  }
+ }
+
+ @keyframes wiredTitle {
+  50% {
+	  color: #C1B493;
+	  text-shadow:#d2738a 1px 4px 5px;
+	  }
+ }
+
+ @keyframes wiredBoxes {
+  50% {
+   box-shadow: 5px 10px 8px #d2738a;
+   }
+ }
+
+ @keyframes logoanim {
+  50% {
+   opacity: 100%;
+   }
+ }

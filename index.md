@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="docs/styles.css">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Indie+Flower|Lacquer|Lexend+Peta&display=swap" rel="stylesheet">
 
 
